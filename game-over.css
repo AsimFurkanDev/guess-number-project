@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  background-image: url(img/loser.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title,
+.input,
+.guess {
+  display: none;
+}
+
+.info {
+  background-color: rgba(160, 0, 3, 0.8);
+  color: wheat;
+}
+
+.new {
+  padding: 2rem 5rem;
+  background-color: #a00004;
+  font-size: 3rem;
+  color: wheat;
+}
