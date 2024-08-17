@@ -36,6 +36,7 @@ function control() {
     document.head.appendChild(link);
   }
   input.value = "";
+  input.focus();
 }
 
 input.addEventListener("keydown", (event) => {
@@ -55,3 +56,7 @@ newGame.addEventListener("click", () => {
     dynamicCSS.parentNode.removeChild(dynamicCSS);
   }
 });
+
+window.onload = function () {
+  input.focus();
+};
