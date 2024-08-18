@@ -60,3 +60,8 @@ newGame.addEventListener("click", () => {
 window.onload = function () {
   input.focus();
 };
+
+// ? ikinci yontem
+// window.addEventListener("load", () => {
+//   input.focus();
+// });
